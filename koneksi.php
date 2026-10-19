@@ -1,10 +1,10 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "";
-$db = "uts_pbd_019";
+$password = "";
+$database = "uts_pbd_019";
 
-$koneksi = mysqli_connect($host, $user, $pass, $db);
+$koneksi = mysqli_connect($host, $user, $password, $database);
 
 if (!$koneksi) {
     die("Koneksi gagal: " . mysqli_connect_error());
